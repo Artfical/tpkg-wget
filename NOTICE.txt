@@ -1,0 +1,5 @@
+wget 1.24.5 for tOS
+==============
+
+Built from wget-1.24.5.tar.gz (beside this package) on a Linux host with prefix /system/pkg/wget, without changes to the source. License: GPL-3.0-or-later (LICENSE).
+glibc: dynamically linked against the GNU C Library, which tOS's base system carries.

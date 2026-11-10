@@ -1,0 +1,27 @@
+{
+ "name": "wget",
+ "version": "1.24.5",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "wget-1.24.5.tar.gz"
+ ],
+ "desc": "GNU Wget 1.24.5 with HTTPS (the ca-certificates package)",
+ "file": "wget-1.24.5.tpkg",
+ "size": 230726,
+ "sha256": "6e61c352a3ec0e518fac0d9edc81be1222ebafda01d3924662acce7c1784eaa0",
+ "unpacked": 470554,
+ "min_build": 619,
+ "depends": [
+  "openssl",
+  "zlib",
+  "ca-certificates"
+ ],
+ "commands": {
+  "wget": "bin/wget"
+ }
+}
